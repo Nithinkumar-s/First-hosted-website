@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My First hosted website</title>
+      <link rel="stylesheet" href="css/homepage.css">
+      <link rel="stylesheet" href="css/mquery.css">
+      <script src="js/menu.js"></script>
+      <link rel="shortcut icon" href="images/meta.png" /> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+      <header>
+            <nav  class="navbar">
+                  <label class="logo">PageX</label>
+                  <ul  class="list">
+                        <a href="#">Home</a>
+                        <a href="#">Quick Access</a>
+                        <a href="#">About</a>
+                  </ul> 
+                  <span class="open-slide">
+                        <a href="#">
+                              <!-- button to open side navigation  -->
+                              <svg width="30" hight="30">
+                                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                              </svg>
+                        </a>
+                  </span>
+            </nav>            
+      </header>
+      
+            <!-- side menubar when screen is small -->
+     <section class="side-nav-bar">
+      <div id="side-menu" class="side-nav">
+            <a href="#" id="btn-close">&times;</a>
+            <a href="#" >Home</a>
+            <a href="#" >Quick Access</a>
+            <a href="#" >About</a>
+            
+
+      </div>
+     </section>
+      
+      
+      <!-- top 2 pages default -->
+      <div class="container">
+            <div class="page" id="web">
+                  <div class="left1" id="left1">
+                        <img src="images/webhost.jpg" alt="">
+                  </div>
+                  <!-- webhosting -->
+                  <div class="right1" id="right1"> 
+                        <h1>Web Hosting</h1>
+                        <h2>The basic infrastructure that puts your website on the internet.</h2>
+                        <h4>Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to
+                               the internet has access to your website.
+                              While you can theoretically host an actual server for your website at home, relying on a web hosting service provider offers lots of benefits.
+                              <p>In a nutshell, web hosting is the process of renting or buying space to house a website on the World Wide Web. Website content such as HTML, CSS, and images has to be housed on a server to be viewable online.</p>
+                              </h4>
+                  </div>              
+            </div>
+            <div class="page" id="html">
+                  <!-- html5 -->
+                  <div class="left2" id="left2">
+                        <h1>HTML5</h1>
+                        <h4>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and last[3] major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).
+                              
+                        </h4>
+                  </div>
+                  <div class="right2" id="right2">
+                        <img src="images/html51.webp" alt="">
+                  </div>
+            </div>
+            <!-- inherits default pages -->
+            <div class="page" id="jquery">
+                  <!-- jquery -->
+                  <div class="left1" id="left3">
+                        <img src="images/jquery.jfif" alt="">
+                  </div>
+                  <div class="right1" id="right3"> 
+                        <h1>Jquery</h1>
+                       
+                        <h4>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage than any other JavaScript library.
+      
+                              <p>jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applications.</p>
+                        </h4>
+                  </div>              
+            </div>
+            <div class="page" id="media">
+                  <!-- media query -->
+                  <div class="left2" id="left4">
+                        <h1>Media Query</h1>
+                        <h4>Media queries is a feature of CSS 3 allowing content rendering to adapt to different conditions such as screen resolution (e.g. mobile and desktop screen size). It became a W3C recommended standard in June 2012, and is a cornerstone technology of responsive web design (RWD).
+      
+                            <p>A media query consists of a media type and one or more expressions, involving media features, which resolve to either true or false. The result of the query is true if the media type specified in the media query matches the type of device the document is being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules. Media queries use the @media CSS "at-rule".</p> 
+                        </h4>
+                  </div>
+                  <div class="right2" id="right4">
+                        <img src="images/mediaquery.png" alt="">
+                  </div>
+                  
+            </div>
+            
+      </div>
+      <!-- youtube reference -->
+      <span class="video">
+            <label id="vdo"> Web Hosting</label>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/f8UNcMCbhk0?start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <label id="vdo"> HTML vs HTML5</label>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vHmUVQKXlVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <label id="vdo"> Jquery</label>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JjIvF0yikGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <label id="vdo"> Media Query</label>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yU7jJ3NbPdA?start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+            <!-- button to go top -->
+            <button id="scrolltop" onclick="topFunction()">Go to top</button>
+      </span>
+
+      
+      <footer><label for="footer" id="footer"> PageX © Maverick Ind Pvt Ltd 2021. All rights reserved.</label></footer>
+
+</body>
+<script>
+      // jquery for toggle side menu 
+       $(".open-slide").click(function() {
+      console.log(5);
+      $('#side-menu').css("display","block");
+    });
+    $("#btn-close").click(function() {
+      console.log(5);
+      $('#side-menu').css("display","none");
+    });
+    $(".container").click(function() {
+      console.log(5);
+      $('#side-menu').css("display","none");
+    });
+</script>
+</html>
